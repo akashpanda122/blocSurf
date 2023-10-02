@@ -1,0 +1,16 @@
+# general things to ignore
+myenv/
+venv/
+build/
+dist/
+VideoDecodeStats/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+
+# due to using tox and pytest
+.tox
+.cache

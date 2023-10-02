@@ -1,14 +1,13 @@
 # Voce Browser
 
-![GPL License](https://img.shields.io/badge/license-GPLv3-green) ![Platforms](https://img.shields.io/powershellgallery/p/DNS.1.1.1.1)
-![Python v3.7](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku) ![Build passing](https://img.shields.io/github/workflow/status/actions/toolkit/Main%20workflow) ![Speech Recognition](https://img.shields.io/badge/speech-recognition-important) ![gTTS](https://img.shields.io/badge/gTTS-2.1.1-blueviolet) ![PyQt5](https://img.shields.io/badge/PyQt5-5.12.3-red)
+![Python v3.8](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku) ![Build passing](https://img.shields.io/github/workflow/status/actions/toolkit/Main%20workflow) ![Speech Recognition](https://img.shields.io/badge/speech-recognition-important) ![gTTS](https://img.shields.io/badge/gTTS-2.1.1-blueviolet) ![PyQt5](https://img.shields.io/badge/PyQt5-5.12.3-red)
 
 
 Voce Browser is a chromium based voice controlled browser using PyQtWebEngine. It has all the basic browser features like Chrome or Firefox and in addition it can be controlled with voice commands.
 
-![Voce Browser](https://github.com/trabdlkarim/voce-browser/blob/master/screenshots/VoceScreenshot3.png)
+![blocSurf Browser](https://github.com/akashpanda122/blocSurf/blob/main/screenshots/cypher-browser.PNG)
 
-![Voce Browser](https://github.com/trabdlkarim/voce-browser/blob/master/screenshots/VoceScreenshot6.png)
+![blocSurf Browser](https://github.com/akashpanda122/blocSurf/blob/main/screenshots/cypher-ss2.PNG)
 
 ## Table of contents
 
@@ -20,11 +19,11 @@ Voce Browser is a chromium based voice controlled browser using PyQtWebEngine. I
 
 ## Description
 
-This project uses the Qt GUI library Python binding as user interface. Voce Browser can be given voice commands which are translated and then exceuted using google speech recognition API. Its web engine is PyQtWebEngine, a chromium based engine.
+This project uses the Qt GUI library Python binding as user interface. BlocSurf Browser can be given voice commands which are translated and then exceuted using google speech recognition API. Its web engine is PyQtWebEngine, a chromium based engine.
 
 ## Features
 
-Voce has all standard browser features, and plus voice commands capabilities.
+Bloc has all standard browser features, and plus voice commands capabilities.
 
 ### Supported Voice Commands
 
@@ -56,6 +55,7 @@ To run the browser, first download or git clone this project and then install it
 Supposing that you have already **Python3** and **pip3** installed on your system, from the terminal change the current directory to the project root directory. Proceed then as follows:
 
 ```
+pip install -r requirements.txt
 python3 setup.py build
 python3 setup.py install
 vocebrowser
@@ -83,13 +83,6 @@ Finally add it to the **path** env variable and you're  done.
 ### PyAudio Module
 
 > If having troubles on installing PyAudio with Python higher than 3.7, then you should first try to the install the following packages as follows:
-
-For Linux (Ubuntu)
-
-```
-sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
-pip install pyaudio
-```
 
 For Wındows
 ```

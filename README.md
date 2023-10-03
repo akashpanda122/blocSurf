@@ -1,9 +1,9 @@
-# Voce Browser
+# BlocSurf Browser
 
 ![Python v3.8](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku) ![Build passing](https://img.shields.io/github/workflow/status/actions/toolkit/Main%20workflow) ![Speech Recognition](https://img.shields.io/badge/speech-recognition-important) ![gTTS](https://img.shields.io/badge/gTTS-2.1.1-blueviolet) ![PyQt5](https://img.shields.io/badge/PyQt5-5.12.3-red)
 
 
-Voce Browser is a chromium based voice controlled browser using PyQtWebEngine. It has all the basic browser features like Chrome or Firefox and in addition it can be controlled with voice commands.
+BlocSurf Browser is a chromium based voice controlled browser using PyQtWebEngine. It has all the basic browser features like Chrome or Firefox and in addition it can be controlled with voice commands.
 
 ![blocSurf Browser](https://github.com/akashpanda122/blocSurf/blob/main/screenshots/cypher-browser.PNG)
 
